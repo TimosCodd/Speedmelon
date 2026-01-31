@@ -111,6 +111,7 @@
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.FixedDialog;
             Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
             Name = "Main";
             Text = "Speedmelon";
             Load += Main_Load;

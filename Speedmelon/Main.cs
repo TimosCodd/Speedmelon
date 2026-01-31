@@ -30,7 +30,7 @@ namespace Speedmelon
 
             if (textBoxGamePath.Text.EndsWith(".exe"))
             {
-                String gameRootFolder = Path.GetDirectoryName(textBoxGamePath.Text)!;
+                String gameRootFolder = Path.GetDirectoryName(textBoxGamePath.Text);
                 progress.Report("Downloading Unstripped DLLs");
                 String managedPath = Path.Combine(gameRootFolder, "SpeedRunners 2_Data", "Managed");
                 await DownloadManager.InstallPackage(UnstrippedURL, managedPath, progress);
