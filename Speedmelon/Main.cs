@@ -6,7 +6,7 @@ namespace Speedmelon
     {
 
         private String MelonLoaderURL = "https://github.com/LavaGang/MelonLoader/releases/latest/download/MelonLoader.x64.zip";
-        private String UnstrippedURL = "https://github.com/TimosCodd/Speedmelon/raw/refs/heads/main/Unstripped.zip";
+        private String UnstrippedURL = "https://github.com/TimosCodd/Speedmelon/raw/refs/heads/main/resources/Unstripped.zip";
 
         public Main()
         {
